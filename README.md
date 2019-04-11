@@ -1,6 +1,6 @@
 
-## Set up
-# Run
+# Set up
+## Run
 npm install
 
 or
@@ -8,7 +8,7 @@ or
 yarn
 
 
-# Config
+## Config
 You need to create a config.json file in the root directory with this JSON structure
 
 {
@@ -16,4 +16,9 @@ You need to create a config.json file in the root directory with this JSON struc
     "TWILIO_ACCOUNT_SID": "",
     "TWILIO_PHONE_NUMBER": ""
 }
+
+## Deploy
+you must have GCloud CDK installed
+run `gcloud functions deploy reply --trigger-http`
+
 

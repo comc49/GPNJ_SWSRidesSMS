@@ -18,5 +18,10 @@
   "homepage": "https://github.com/comc49/GPNJ_SWSRidesSMS#readme",
   "dependencies": {
     "twilio": "^3.30.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "sinon": "^7.3.1",
+    "uuid": "^3.3.2"
   }
 }
